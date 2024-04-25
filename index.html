@@ -1,12 +1,429 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="TW">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mimimu is bad</title>
-    <link rel="stylesheet" href="style.css?V1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>海淨家族：我們是海洋的守護者！</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>mimimu is garbage</h1>
+    <!-- 頁眉開始 -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top opacity-75" style="height: 55px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo.png" style="max-width: 120px" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex justify-content-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            關於我們
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">團隊簡介</a></li>
+                            <li><a class="dropdown-item" href="#">團隊理念</a></li>
+                            <li><a class="dropdown-item" href="#">歷史經歷</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            淨灘申請
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">淨灘申請</a></li>
+                            <li><a class="dropdown-item" href="#">申請查詢</a></li>
+                            <li><a class="dropdown-item" href="#">垃圾車查詢</a></li>
+                            <li><a class="dropdown-item" href="#">潮汐預報</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            淨灘報名
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">淨灘行事曆</a></li>
+                            <li><a class="dropdown-item" href="#">淨灘活動</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            淨灘通報
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">淨灘成果上傳</a></li>
+                            <li><a class="dropdown-item" href="#">海岸髒亂通報</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            淨灘成果
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">淨灘成果統計</a></li>
+                            <li><a class="dropdown-item" href="#">海岸成果查詢</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            海廢博物館
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">海廢買賣館</a></li>
+                            <li><a class="dropdown-item" href="#">海廢圖鑑館</a></li>
+                            <li><a class="dropdown-item" href="#">海廢公益館</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 頁眉結束 -->
+
+    <!-- 大圖開始 -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="photo1.jpg" class="d-block w-100" style="object-fit: cover; height: 100vh;" alt="...">
+                    <div class="carousel-caption">
+                        <h1>在你眼前的這是甚麼</h1>
+                        <p>你希望你家一堆這種東西嗎</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="photo2.jpg" class="d-block w-100" style="object-fit: cover; height: 100vh;" alt="...">
+                    <div class="carousel-caption">
+                        <h1>台灣是整個台灣人的家</h1>
+                        <p>而我們家有著一堆垃圾</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="photo3.jpg" class="d-block w-100" style="object-fit: cover; height: 100vh;" alt="...">
+                    <div class="carousel-caption">
+                        <h1>你打算髒到什麼時候</h1>
+                        <p>要多髒你才打算行動打掃</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- 大圖結束 -->
+
+    <!-- 關於我們開始 -->
+    <div class="container-fluid px-0 my-5">
+        <div class="row d-block d-md-flex">
+            <div class="col-12 col-md-5">
+                <img src="team.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col text-start d-flex flex-column justify-content-center px-5 px-md-4 py-md-0 py-3">
+                <h4>關於我們</h4>
+                <p>「淨灘家族」是一個致力於保護海洋環境的組織。我們每年組織數百次的淨灘活動，清理海灘上的垃圾和塑料，以保持海洋的美麗和生態平衡。我們也通過各種宣導活動，提高公眾對海洋保護的意識。我們的目標是建立一個更潔淨、更健康的海洋環境，為未來的世代留下一片淨土。
+                </p>
+                <button type="button" class="btn btn-1 justify-content-md-end">了解更多</button>
+            </div>
+        </div>
+    </div>
+    <!-- 關於我們結束 -->
+
+    <!-- 淨灘活動開始 -->
+    <h4 class="text-center ">淨灘活動</h4>
+    <div class="w-100 mx-auto px-0 my-3">
+        <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 px-2">
+                        <!-- 第一行卡片 -->
+                        <div class="col">
+                            <div class="card mb-3 mx-auto">
+                                <img src="OCG.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">OCG 再次出征!!!</h5>
+                                    <div class="card-text">
+                                        <p>日期：8/29</p>
+                                        <p>當OCG再度出征時，這是一場不容錯過的淨灘盛事！我們將於5/14舉辦淨灘活動，我們需要您的參與！無論您是大人還是小孩，無論您是專業人士還是初學者，都歡迎加入我們的行列。在這次活動中，您將有機會與OCG一起，為美麗的海洋盡一份心力。我們將清理海灘上的垃圾和塑料，以保持海洋的美麗和生態平衡。您的參與將對保護海洋生態產生重大影響。我們相信，每一個人的小小舉動都能為未來的世代留下一片淨土。讓我們攜手合作，一起探索、一起行動，為我們珍愛的海洋做出改變！行動起來！加入OCG，加入淨灘家族！
+                                        </p>
+                                        <button type="button" class="btn btn-2 justify-content-md-end">立即加入</button>
+                                        <!-- 更多内容 -->
+                                    </div>
+                                    <button type="button" class="custom-button" onclick="expandText(this)"
+                                        style="z-index: 999;">展開</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3 mx-auto">
+                                <img src="ESG.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">ESG 用證明愛護大家~</h5>
+                                    <div class="card-text">
+                                        <p>日期：8/11</p>
+                                        <p>當我們談到ESG，我們談論的是更大的使命，一種對環境、社會和治理的責任。這不僅僅是一個組織的名稱，更是一種承諾，一種改變的力量。我們是一群對世界未來充滿信心的人，我們相信每個人都應該為保護我們的地球而負起責任。我們的使命是創造一個更美好的世界，一個更可持續的未來。在ESG，我們通過行動來展示我們對環境和社會的關懷。我們參與各種淨灘活動、環境保護計劃和社區支持項目，以確保我們的地球能夠持續繁榮。我們需要您的加入！無論您是一個熱情洋溢的社會活動家，還是一個對環境保護感興趣的新手，您都可以在ESG找到屬於自己的位置。讓我們攜手合作，讓我們的愛護之心證明我們可以共同創造一個更加美好、更加可持續的未來。加入我們，成為ESG的一員，為愛護地球而努力！
+                                        </p>
+                                        <button type="button" class="btn btn-2 justify-content-md-end">立即加入</button>
+                                        <!-- 更多内容 -->
+                                    </div>
+                                    <button type="button" class="custom-button" onclick="expandText(this)"
+                                        style="z-index: 999;">展開</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3 mx-auto">
+                                <img src="yellow.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">黃綠小惡魔來襲!</h5>
+                                    <div class="card-text">
+                                        <p>日期：7/25</p>
+                                        <p>大家好，我們是黃綠小惡魔！但是，我們是海廢的小惡魔！我們的使命是清理海灘，保護海洋，並減少海洋廢棄物對我們地球的影響。在黃綠小惡魔，我們相信每個人都可以成為地球的守護者。我們不斷地舉辦淨灘活動，清理海灘上的垃圾和塑料，以保持海洋的美麗和生態平衡。我們需要您的加入！無論您是大人還是小孩，無論您是專業人士還是初學者，都歡迎加入我們的行列。一個小小的舉動，將為未來的世代留下一片淨土。加入我們，成為海廢的小惡魔，為我們珍愛的海洋做出改變！一起行動起來，讓我們的地球變得更加美好！
+                                        </p>
+                                        <button type="button" class="btn btn-2 justify-content-md-end">立即加入</button>
+                                        <!-- 更多内容 -->
+                                    </div>
+                                    <button type="button" class="custom-button" onclick="expandText(this)"
+                                        style="z-index: 999;">展開</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 px-2">
+                        <!-- 第二行卡片 -->
+                        <div class="col ">
+                            <div class="card mb-3 mx-auto">
+                                <img src="pm.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">平民也有power!</h5>
+                                    <div class="card-text">
+                                        <p>日期：7/03</p>
+                                        <p>嘿，大家好！我們是「平民也有power」淨灘團隊！我們是一群來自不同背景、不同年齡、不同職業的普通人，但我們有一個共同的信念：每個人都可以為保護地球盡一份心力。我們相信，雖然我們可能只是社區中的一個小小角色，但每一個小小的舉動都可以產生重大的影響。當我們聚集在一起，共同走到海灘，撿拾著那些被海浪拋上岸的垃圾和塑料瓶時，我們不只是在清理海灘，更是在保護我們的地球家園。我們的行動並不需要華麗的背景或昂貴的裝備。我們只需要一顆熱愛大自然的心和一雙
+                                            willing
+                                            手。每當我們的淨灘團隊走進海灘，我們不僅僅是在掃除垃圾，更是在教育他人尊重和保護我們共同的海洋環境。我們的目標不僅僅是讓海灘更美麗，更重要的是喚醒大眾對於環保的意識。我們相信，通過我們每一次的行動，都能激發更多人加入我們的行列，為地球環境盡一份心力。因此，我們邀請每一位想要為地球盡一份力量的人加入我們的行列。無論你是誰，無論你的背景如何，只要你願意行動，你都可以成為「平民也有power」淨灘團隊的一員！讓我們攜手合作，為我們的地球創造一個更美好的未來！7月3號我們不見不散！
+                                        </p>
+                                        <button type="button" class="btn btn-2 justify-content-md-end">立即加入</button>
+                                        <!-- 更多内容 -->
+                                    </div>
+                                    <button type="button" class="custom-button" onclick="expandText(this)"
+                                        style="z-index: 999;">展開</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3 mx-auto">
+                                <img src="OCG.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">OCG 再次出征!!!</h5>
+                                    <div class="card-text">
+                                        <p>日期：5/14</p>
+                                        <p>當OCG再度出征時，這是一場不容錯過的淨灘盛事！我們將於5/14舉辦淨灘活動，我們需要您的參與！無論您是大人還是小孩，無論您是專業人士還是初學者，都歡迎加入我們的行列。在這次活動中，您將有機會與OCG一起，為美麗的海洋盡一份心力。我們將清理海灘上的垃圾和塑料，以保持海洋的美麗和生態平衡。您的參與將對保護海洋生態產生重大影響。我們相信，每一個人的小小舉動都能為未來的世代留下一片淨土。讓我們攜手合作，一起探索、一起行動，為我們珍愛的海洋做出改變！行動起來！加入OCG，加入淨灘家族！
+                                        </p>
+                                        <button type="button" class="btn btn-2 justify-content-md-end">立即加入</button>
+                                        <!-- 更多内容 -->
+                                    </div>
+                                    <button type="button" class="custom-button" onclick="expandText(this)"
+                                        style="z-index: 999;">展開</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3 mx-auto">
+                                <img src="ESG.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">ESG 用證明愛護大家~</h5>
+                                    <div class="card-text">
+                                        <p>日期：5/01</p>
+                                        <p>當我們談到ESG，我們談論的是更大的使命，一種對環境、社會和治理的責任。這不僅僅是一個組織的名稱，更是一種承諾，一種改變的力量。我們是一群對世界未來充滿信心的人，我們相信每個人都應該為保護我們的地球而負起責任。我們的使命是創造一個更美好的世界，一個更可持續的未來。在ESG，我們通過行動來展示我們對環境和社會的關懷。我們參與各種淨灘活動、環境保護計劃和社區支持項目，以確保我們的地球能夠持續繁榮。我們需要您的加入！無論您是一個熱情洋溢的社會活動家，還是一個對環境保護感興趣的新手，您都可以在ESG找到屬於自己的位置。讓我們攜手合作，讓我們的愛護之心證明我們可以共同創造一個更加美好、更加可持續的未來。加入我們，成為ESG的一員，為愛護地球而努力！
+                                        </p>
+                                        <button type="button" class="btn btn-2 justify-content-md-end">立即加入</button>
+                                        <!-- 更多内容 -->
+                                    </div>
+                                    <button type="button" class="custom-button" onclick="expandText(this)"
+                                        style="z-index: 999;">展開</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <button type="button" class="btn btn-1 my-0 mx-3 float-end">了解更多</button>
+        </div>
+        <!-- 淨灘活動結束 -->
+        <br>
+        <!-- 淨灘海廢博物館開始 -->
+        <div class="bg-image my-5">
+            <div class="white-box">
+                <div class="text-container-seaart">
+                    <div class="text-vertical-center">
+                        <h2>海廢博物館</h2>
+                        <p>海廢博物館就像是一個獨特的寶盒，內藏著無盡的驚喜！<br>
+                            <button type="button" class="btn btn-2 my-3">來去逛逛</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 淨灘海廢博物館結束 -->
+
+        <!-- 簡易成果表開始 -->
+        <div class="bg-trash">
+            <div class="container">
+                <div class="row align-middle">
+                    <div class="col text-center">
+                        <h2>307+</h2>
+                        <p>場淨灘活動</p>
+                    </div>
+                    <div class="col text-center">
+                        <h2>72930+</h2>
+                        <p>位淨灘家族成員共同參與</p>
+                    </div>
+                    <div class="col text-center">
+                        <h2>238789+</h2>
+                        <p>公斤重的海廢被驅逐</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 簡易成果表結束 -->
+
+        <!-- 照片集開始 -->
+        <h4 class="text-center mt-5 mb-3">照片集</h4>
+        <div class="container-fluid">
+            <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 px-2">
+                            <!-- 第一行卡片 -->
+                            <div class="col">
+                                <div class="photo mb-3 mx-auto">
+                                    <img src="new1.jpg" class="card-img-top" alt="Image 1">
+                                    <div class="caption">澎湖淨灘環團盼打造無塑示範島</div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="photo mb-3 mx-auto">
+                                    <img src="new2.jpg" class="card-img-top" alt="Image 2">
+                                    <div class="caption">新北秋季淨灘逾600人響應民眾及企業攜手清出666公斤海廢</div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="photo mb-3 mx-auto">
+                                    <img src="new3.jpg" class="card-img-top" alt="Image 3">
+                                    <div class="caption">中央大學「淨」行式珍愛地球‧環保淨灘活動</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 px-2">
+                            <!-- 第二行卡片 -->
+                            <div class="col">
+                                <div class="photo mb-3 mx-auto">
+                                    <img src="new4.jpg" class="card-img-top" alt="Image 4">
+                                    <div class="caption">這間公司8周年員工淨灘！清出50公斤垃圾</div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="photo mb-3 mx-auto">
+                                    <img src="new5.png" class="card-img-top" alt="Image 5">
+                                    <div class="caption">親子旅遊新選擇隨到隨清宜起來淨灘</div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="photo mb-3 mx-auto">
+                                    <img src="new6.jpg" class="card-img-top" alt="Image 6">
+                                    <div class="caption">「船井生醫」響應4/22世界地球日　舉辦企業淨灘活動為環境永續盡心力！</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- 照片集結束 -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <script>
+            function expandText(button) {
+                var cardText = button.previousElementSibling;
+                cardText.classList.toggle('expanded');
+                if (cardText.classList.contains('expanded')) {
+                    button.textContent = '收起';
+                } else {
+                    button.textContent = '展开';
+                }
+            }
+        </script>
+        <script src="your-script.js"></script>
 </body>
+
+<!-- 頁尾 -->
+<footer class="footer">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col">
+                <img src="logo.png" alt="Logo" class="logo">
+            </div>
+            <div class="col">
+                <p>關於</p>
+                <ul>
+                    <li><a href="#">團隊簡介</a></li>
+                    <li><a href="#">團隊理念</a></li>
+                    <li><a href="#">歷史經歷</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <p>社群媒體</p>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
 </html>
