@@ -330,3 +330,20 @@
 body {
     overflow-x: hidden;
 }
+
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+    background-color: #E69F50; /* 選擇你想要的顏色 */
+}
+
+
+.navbar-nav .nav-item {
+    transition: transform 0.2s ease;
+}
+
+.navbar-nav .nav-item:hover {
+    transform: scale(1.1); /* 放大 10% */
+}
